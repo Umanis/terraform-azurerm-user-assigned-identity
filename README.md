@@ -79,6 +79,7 @@ module "public_ip" {
 |------|-------------|
 | <a name="output_client_id"></a> [client\_id](#output\_client\_id) | Client ID associated with the user assigned identity. |
 | <a name="output_id"></a> [id](#output\_id) | The user assigned identity ID. |
+| <a name="output_name"></a> [name](#output\_name) | User assigned identity display name. |
 | <a name="output_principal_id"></a> [principal\_id](#output\_principal\_id) | Service Principal ID associated with the user assigned identity. |
 | <a name="output_tenant_id"></a> [tenant\_id](#output\_tenant\_id) | Tenant ID associated with the user assigned identity. |
 <!-- END_TF_DOCS -->

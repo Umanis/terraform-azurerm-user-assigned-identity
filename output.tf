@@ -19,3 +19,8 @@ output "tenant_id" {
   value       = azurerm_user_assigned_identity.self.tenant_id
   description = "Tenant ID associated with the user assigned identity."
 }
+
+output "name" {
+  value       = azurerm_user_assigned_identity.self.name
+  description = "User assigned identity display name."
+}
